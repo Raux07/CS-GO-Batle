@@ -21,35 +21,35 @@ let prises = [
   },
   {
    name:'КЕРАМБИТ ДЕВОЧКА',
-   src:'../assets/tttt.png'
+   src:'./assets/tttt.png'
   },
   {
    name:'AWP ПРЯМО В ЦЕЛЬ',
-   src:'../assets/qqqqq.png'
+   src:'./assets/qqqqq.png'
   },
   {
    name:'ЗОЛОТОЙ НОЖ',
-   src:'../assets/nozh 1.png'
+   src:'./assets/nozh 1.png'
   },
   {
    name:'АУГ-ЗОЛОТОЙ ЗУБ',
-   src:'../assets/kkkk.png'
+   src:'./assets/kkkk.png'
   },
   {
    name:'П-90 АЗИМОВ',
-   src:'../assets/hhhh.png'
+   src:'./assets/hhhh.png'
   },
   {
    name:'Нож Убийца',
-   src:'../assets/gggg.png'
+   src:'./assets/gggg.png'
   },
   {
    name:'Нож Ризонанс',
-   src:'../assets/dddd.png'
+   src:'./assets/dddd.png'
   }
 ]
 
-let audio = new Audio('../sound/spin.mp3');
+let audio = new Audio('./sound/spin.mp3');
 
 prises = prises.reverse();
 
