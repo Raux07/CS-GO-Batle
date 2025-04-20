@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Колесо Фортуны</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/index.js" defer></script>
+</head>
+<body>
+    
+
+<div class="container">
+    <h1>  CASE BATLE  </h1>
+
+    <div class="wheel-container">
+    <div id="marker"></div>
+    <div class="wheel" id="wheel">
+        <div  style="--i:1" class="card" data-prize="1000$">
+            <div class="card-color" style="background-color: #ff5252; box-shadow: 0 0 15px #ff5252;"></div>
+            <div class="card-title">Red</div>
+            <img src="./assets/монета времени.png" alt="">
+            <div class="card-prize">1000$</div>
+        </div>
+
+        <div  style="--i:2" class="card" data-prize="Золотой амулет">
+            <div class="card-color" style="background-color: #FFEB3B; box-shadow: 0 0 15px   #FFEB3B;"></div>
+            <div class="card-title">Gold</div>
+            <img src="./assets/tttt.png" alt="">
+            <div class="card-prize">КЕРАМБИТ ДЕВОЧКА</div>
+        </div>
+
+        <div style="--i:3"  class="card" data-prize="Волшебный элексир">
+            <div class="card-color" style="background-color: #2196F3; box-shadow: 0 0 15px #2196F3;"></div>
+            <div class="card-title">Blue</div>
+            <img src="./assets/qqqqq.png" alt="">
+            <div class="card-prize"> AWP ПРЯМО В ЦЕЛЬ</div>
+        </div>
+
+
+        <div style="--i:4"  class="card" data-prize="Кристал скорости">
+            <div class="card-color" style="background-color: #9C27B0; box-shadow: 0 0 15px #9C27B0;"></div>
+            <div class="card-title">Purple</div>
+            <img src="./assets/nozh 1.png" alt="">
+            <div class="card-prize">ЗОЛОТОЙ НОЖ</div>
+        </div>
+
+
+
+        <div style="--i:5"  class="card" data-prize="Огненый меч">
+            <div class="card-color" style="background-color: #FF9800; box-shadow: 0 0 15px #FF9800;"></div>
+            <div class="card-title">Orange</div>
+            <img src="./assets/kkkk.png" alt="">
+            <div class="card-prize">АУГ-ЗОЛОТОЙ ЗУБ </div>
+        </div>
+
+        
+        <div style="--i:6" class="card" data-prize="Книга Заклинаний">
+            <div class="card-color" style="background-color: white; box-shadow: 0 0 15px white;"></div>
+            <div class="card-title">White</div>
+            <img src="./assets/hhhh.png" alt="">
+            <div class="card-prize">П-90 АЗИМОВ</div>
+        </div>
+
+        <div style="--i:7" class="card" data-prize="Монета Времени">
+            <div class="card-color" style="background-color: #00CED1; box-shadow: 0 0 15px  #00CED1;"></div>
+            <img src="./assets/gggg.png" alt="">
+            <div class="card-title">Light Blue</div>
+            <div class="card-prize">Нож Убийца</div>
+        </div>
+
+        <div style="--i:8" class="card" data-prize="Плащ невидимки">
+            <div class="card-color" style="background-color:#C71585; box-shadow: 0 0 15px #C71585;"></div>
+            <img src="./assets/dddd.png" alt="">
+            <div class="card-title">Pink</div>
+            <div class="card-prize">Нож Ризонанс</div>
+        </div>
+
+
+    </div>
+    <div class="wheel-center">УДАЧИ!</div>
+    </div>  
+    <button class="spin-btn" id="spin-btn">SPIN</button>
+    <div class="prize-display">
+        <img src=""  id="prize-img"  alt="">
+        <p id="prize-name"></p>
+    </div>
+
+
+    <aside>
+    <button id="inventory">
+        INVENTORY
+        <div id="clip">
+            <div id="leftTop" class="corner"></div>
+            <div id="rightBottom" class="corner"></div>
+            <div id="rightTop" class="corner"></div>
+            <div id="leftBottom" class="corner"></div>
+        </div>
+        <span id="rightArrow" class="arrow"></span>
+        <span id="leftArrow" class="arrow"></span>
+    </button>
+
+<div class="inventory-window"></div>
+
+   </aside>
+    
+
+
+</div>
+
+</body> 
+</html>
